@@ -1,0 +1,177 @@
+/* গ্লোবাল */
+body {
+  margin: 0;
+  font-family: 'SolaimanLipi', sans-serif;
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+/* Header */
+header {
+  background-color: #1b5e20;
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bhorsha-logo {
+  width: 50px;
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.search-box input {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+}
+
+/* Welcome */
+.welcome {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.welcome h2 {
+  color: #1b5e20;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.welcome p {
+  font-size: 20px;
+  color: #4caf50;
+}
+
+/* Product Section */
+.product-section {
+  text-align: center;
+  background-color: #f1f8e9;
+  padding: 50px 20px;
+}
+
+.product-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #2e7d32;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: white;
+  border: 2px solid #c8e6c9;
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #388e3c;
+}
+
+.price {
+  font-size: 22px;
+  color: #1b5e20;
+  font-weight: bold;
+}
+
+.product-card img.product-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Fixed Order Buttons */
+.fixed-order-buttons {
+  position: fixed;
+  bottom: 80px; /* একটু উপরে */
+  right: 20px;
+  z-index: 1000;
+  text-align: center;
+  background-color: #1b5e20;
+  border-radius: 12px;
+  padding: 10px 10px 5px 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.fixed-order-buttons p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  font-family: 'SolaimanLipi', sans-serif;
+}
+
+.fixed-order-buttons a {
+  display: inline-block;
+  margin: 5px 6px;
+}
+
+.fixed-order-buttons img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.fixed-order-buttons img:hover {
+  transform: scale(1.15);
+}
+
+/* Footer */
+footer {
+  background-color: #1b5e20;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 50px;
+}
